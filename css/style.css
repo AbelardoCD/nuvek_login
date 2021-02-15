@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#back {
+    background: url('../images/background.svg') no-repeat center center;
+    background-size: cover;
+}
+
+#box-login {
+    border-radius: 10px;
+    background: rgba(36, 36, 36, 0.5);
+}
+
+.title {
+    font-size: 25px;
+    border-bottom: 2px solid white;
+}
